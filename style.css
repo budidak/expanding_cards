@@ -75,3 +75,14 @@ body {
 .panel.active h3 {
   opacity: 1;
 }
+
+@media (max-width: 480px) {
+  .flex-container {
+    padding-top: 10rem;
+  }
+
+  .flex-container > .panel:nth-child(4),
+  .flex-container > .panel:nth-child(5) {
+    display: none;
+  }
+}
